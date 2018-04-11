@@ -11,10 +11,11 @@ public class level_1 {
 		
 		for(int m = 0; m < anzahlMuenzen;m ++) {
 			int offset = 2;
-			muenzen[m] = Integer.parseInt(args[offset + m]);			
+			muenzen[m] = Integer.parseInt(args[offset + m]);
+			
 		}
 		
-		if(muenzen[anzahlMuenzen] < Betrag) {
+		if(muenzen[] < Betrag) {
 			System.out.println("MISSING");
 		}
 		
