@@ -22,10 +22,10 @@ public class level_1 {
 		
 		if(einwurf > Betrag) {
 			int f = einwurf - Betrag ;
-			System.out.print("Change "+ f);
+			System.out.print("CHANGE "+ f);
 		}else if(einwurf < Betrag) {
 			int f = Betrag - einwurf;
-			System.out.print("Missing " +f);
+			System.out.print("MISSING " +f);
 		}
 		
 	}
