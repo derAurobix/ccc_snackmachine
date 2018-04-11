@@ -14,6 +14,10 @@ public class level_1 {
 			muenzen[m] = Integer.parseInt(args[offset + m]);			
 		}
 		
+		if(muenzen[anzahlMuenzen] < Betrag) {
+			System.out.println("MISSING");
+		}
+		
 	}
 
 }
