@@ -23,41 +23,24 @@ public class level2 {
 		if(einwurf > Betrag) {
 			int auswurf = einwurf - Betrag;		
 						
-			int auswurf200 = auswurf/200;
 			int Restauswurf200 = auswurf%200;
 			System.out.println(Restauswurf200);
-			int auswurf100 = auswurf/100;
-			int Restauswurf100 = auswurf%100;
+			int Restauswurf100 = Restauswurf200%100;
 			System.out.println(Restauswurf100);
-			int auswurf50 = auswurf/50;
 			int Restauswurf50 = auswurf%50;
 			System.out.println(Restauswurf50);
-			int auswurf20 = auswurf/20;
 			int Restauswurf20 = auswurf%20;
 			System.out.println(Restauswurf20);
-			int auswurf10 = auswurf/10;
 			int Restauswurf10 = auswurf%10;
 			System.out.println(Restauswurf10);
-			int auswurf5 = auswurf/5;
 			int Restauswurf5 = auswurf%5;
 			System.out.println(Restauswurf5);
-			int auswurf2 = auswurf/2;
 			int Restauswurf2 = auswurf%2;
 			System.out.println(Restauswurf2);
-			int auswurf1 = auswurf/1;
 			int Restauswurf1 = auswurf%1;
 			System.out.println(Restauswurf1);
 						
 			
-			
-			System.out.println("CHANGE1 "+ auswurf1);
-			System.out.println("CHANGE2 "+ auswurf2);
-			System.out.println("CHANGE5 "+ auswurf5);
-			System.out.println("CHANGE10 "+ auswurf10);
-			System.out.println("CHANGE20 "+ auswurf20);
-			System.out.println("CHANGE50 "+ auswurf50);
-			System.out.println("CHANGE100 "+ auswurf100);
-			System.out.println("CHANGE200 "+ auswurf200);
 			
 			
 			
