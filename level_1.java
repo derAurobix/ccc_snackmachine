@@ -14,11 +14,19 @@ public class level_1 {
 			muenzen[m] = Integer.parseInt(args[offset + m]);
 			
 		}
+		int einwurf = 0;
 		
-		if(muenzen[] < Betrag) {
-			System.out.println("MISSING");
+		for(int n = 0; n< anzahlMuenzen; n++) {
+			 einwurf += muenzen[n];
+		}
+		
+		if(einwurf > Betrag) {
+			int f = einwurf - Betrag ;
+			System.out.print("Change "+ f);
+		}else if(einwurf < Betrag) {
+			System.out.print("Missing");
 		}
 		
 	}
+  }
 
-}
